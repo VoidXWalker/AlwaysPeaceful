@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "alwayspeaceful",
+  "version": "1.0.0",
+  "name": "Always Peaceful",
+  "description": "Mod that always sets the difficulty to peaceful",
+  "authors": [
+    "Void_X_Walker"
+  ],
+  "contact": {
+    "repo": "https://github.com/VoidXWalker/AlwaysPeaceful"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.voidxwalker.peaceful.Main"
+    ]
+  },
+  "mixins": [
+    "peaceful.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  }
+}
